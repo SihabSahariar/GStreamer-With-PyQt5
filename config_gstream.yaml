@@ -1,0 +1,3 @@
+gstreamer_source: "v4l2src"
+input_device: "/dev/video0"
+app_sink_caps: "video/x-raw, format=(string){RGB, GRAY8};"
